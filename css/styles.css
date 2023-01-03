@@ -286,9 +286,13 @@ body {
   letter-spacing: 0.03em;
 }
 .contact-icon {
-  fill: var(--main-design-black);
+  stroke: var(--main-design-black);
+  fill: #000;
+  outline: 1px solid red;
+  margin-right: 10px;
 }
 
+.contact-icon:hover,
 .contact-item:hover,
 .contact-item:focus,
 .nav-link:hover,
