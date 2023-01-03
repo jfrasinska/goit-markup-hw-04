@@ -285,6 +285,10 @@ body {
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
 }
+.contact-icon {
+  fill: var(--main-design-black);
+}
+
 .contact-item:hover,
 .contact-item:focus,
 .nav-link:hover,
