@@ -313,9 +313,46 @@ body {
 }
 .footer-items {
   display: flex;
+  gap: 50px;
+  align-items: baseline;
+}
+.footer-info {
+  display: flex;
   flex-direction: column;
   gap: 9px;
   justify-content: flex-start;
+}
+.join-us-box {
+  width: 206px;
+  height: 80px;
+}
+.join-us-header {
+  color: var(--main-design-white);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer-social-links {
+  fill: var(--main-design-white);
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+}
+.footer-social-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-icon:focus,
+.footer-social-icon:hover {
+  background-color: var(--main-design-blue);
 }
 
 .address-info {
